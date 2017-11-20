@@ -1,6 +1,6 @@
 {
-  "name": "express-routes-list",
-  "version": "1.0.0",
+  "name": "express-api-routes-list",
+  "version": "1.0.1",
   "description": "Get all the existing API routes in your express.js application.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alexgrozav/express-routes-list.git"
+    "url": "git+https://github.com/alexgrozav/express-api-routes-list.git"
   },
   "keywords": [
     "express",
@@ -19,7 +19,7 @@
   "author": "Alex Grozav <alex@grozav.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alexgrozav/express-routes-list/issues"
+    "url": "https://github.com/alexgrozav/express-api-routes-list/issues"
   },
-  "homepage": "https://github.com/alexgrozav/express-routes-list#readme"
+  "homepage": "https://github.com/alexgrozav/express-api-routes-list#readme"
 }
