@@ -85,7 +85,7 @@ const addToTable = (path, layer) => {
  * An extremely hacky way of listing all API routes. Should not be used in
  * production under any circumstances.
  */
-export let listRoutes = (app) => {
+export let routesList = (app) => {
     // Go through the router stack and add the entries to the API table
     app._router.stack.forEach(addToTable.bind(null, []));
 
@@ -96,4 +96,4 @@ export let listRoutes = (app) => {
 };
 
 
-export default listRoutes;
+export default routesList;
