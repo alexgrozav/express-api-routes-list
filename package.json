@@ -1,6 +1,6 @@
 {
   "name": "express-api-routes-list",
-  "version": "1.0.3",
+  "version": "1.1.1",
   "description": "Get all the existing API routes in your express.js application.",
   "main": "index.js",
   "scripts": {
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/alexgrozav/express-api-routes-list/issues"
   },
-  "homepage": "https://github.com/alexgrozav/express-api-routes-list#readme"
+  "homepage": "https://github.com/alexgrozav/express-api-routes-list#readme",
+  "dependencies": {
+    "cli-table": "^0.3.1"
+  }
 }
