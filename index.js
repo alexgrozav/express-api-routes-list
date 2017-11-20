@@ -72,7 +72,7 @@ const addToTable = (path, layer) => {
     } else if (layer.method) {
         apiTable.push([
             layer.method.toUpperCase(),
-            path.concat(split(layer.regexp)).filter(Boolean).join('/'),
+            '/' + path.concat(split(layer.regexp)).filter(Boolean).join('/'),
         ]);
     }
 };
