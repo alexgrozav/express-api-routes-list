@@ -1,10 +1,7 @@
 'use strict';
 
 
-import { Application } from 'express';
-import * as CLITable from 'cli-table';
-
-
+const CLITable = require('cli-table');
 const apiTable = new CLITable({
     head: [
         'Method',

@@ -1,6 +1,6 @@
 {
   "name": "express-api-routes-list",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Get all the existing API routes in your express.js application.",
   "main": "index.js",
   "scripts": {
